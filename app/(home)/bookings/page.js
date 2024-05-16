@@ -10,6 +10,7 @@ const BookingsPage = async () => {
     if (!session) {
         redirect("/login");
     }
+
     return (
         <>
             <section className="mt-[100px]">
